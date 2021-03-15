@@ -1,0 +1,17 @@
+.header__navigatoin {
+  display: flex;
+  justify-content: flex-start;
+
+  list-style: none;
+  padding: 0;
+
+  margin: 35px 0 0;
+}
+
+.header__navigatoin:last-child {
+  margin: 0;
+}
+
+nav {
+  margin: 0 0 0 86px;
+}
