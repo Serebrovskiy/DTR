@@ -1,0 +1,9 @@
+.page {
+  min-width: 310px;
+  max-width: 1920px;
+  margin: auto;
+  font-family: "Manifold Extended CF", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  /* background-color: #e5e5e5; */
+  background-color: #020102;
+}
