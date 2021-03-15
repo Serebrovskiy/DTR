@@ -1,0 +1,14 @@
+@import url(./__video/about__video.css);
+@import url(./__info/about__info.css);
+@import url(./__title/about__title.css);
+@import url(./__text/about__text.css);
+
+.about {
+  min-height: 600px;
+  background-image: url(../../images/white-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
