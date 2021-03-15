@@ -1,0 +1,18 @@
+.greating__button {
+  width: 315px;
+  height: 60px;
+  margin: 88px 0 103px;
+  background-color: #ca1517;
+  border: none;
+  border-radius: 20px 0px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+}
+
+.greating__button:hover {
+  cursor: pointer;
+  /* opacity: 0.8; */
+}
