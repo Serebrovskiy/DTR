@@ -1,0 +1,9 @@
+.services-company__container {
+  margin: 28px 0 0;
+  max-width: 300px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #020102;
+}

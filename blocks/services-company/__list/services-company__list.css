@@ -1,0 +1,9 @@
+.services-company__list {
+  margin: 66px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 50px; */
+  grid-row-gap: 15px;
+  grid-column-gap: 70px;
+  justify-content: center;
+}
