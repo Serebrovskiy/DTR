@@ -1,0 +1,16 @@
+.slider__item {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+}
+.slider__item img {
+  max-width: 332px;
+  height: 332px;
+  object-fit: cover;
+}
+.slider__item.slick-center {
+}
+
+.slider__item:focus {
+  outline: none;
+}

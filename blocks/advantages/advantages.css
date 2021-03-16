@@ -1,0 +1,13 @@
+@import url(./__list/advantages__list.css);
+@import url(./__item/advantages__item.css);
+@import url(./__image/advantages__image.css);
+@import url(./__text/advantages__text.css);
+/* @import url(./__slider/advantages__slider.css); */
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 106px 0 0;
+}

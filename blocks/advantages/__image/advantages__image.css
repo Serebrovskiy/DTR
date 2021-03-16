@@ -1,0 +1,10 @@
+.advantages__image {
+  width: 92px;
+  height: 92px;
+  transition: 0.3s linear;
+}
+
+.advantages__image:hover {
+  /* transform: scale(1.1); */
+  /* transition: 0.5s linear; */
+}

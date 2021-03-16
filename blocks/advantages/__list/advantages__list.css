@@ -1,0 +1,11 @@
+.advantages__list {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-gap: 50px; */
+  grid-row-gap: 3px;
+  grid-column-gap: 30px;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+}

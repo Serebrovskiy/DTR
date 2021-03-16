@@ -1,0 +1,8 @@
+.advantages__item {
+  text-decoration: none;
+  max-width: 212px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
