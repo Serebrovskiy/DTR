@@ -1,0 +1,9 @@
+@import url(./__container/map__container.css);
+@import url(./__title/map__title.css);
+@import url(./__text/map__text.css);
+
+.map {
+  max-height: 704px;
+  width: 100%;
+  position: relative;
+}

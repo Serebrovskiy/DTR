@@ -1,0 +1,9 @@
+.map__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  color: #020102;
+  margin: 50px 0 0;
+  max-width: 365px;
+}
