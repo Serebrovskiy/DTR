@@ -1,0 +1,11 @@
+.contacts__title {
+  margin: 82px 0 0;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  color: #ca1517;
+  border-bottom: 2px solid #ca1517;
+  max-width: 267px;
+  max-height: 43px;
+}

@@ -1,0 +1,9 @@
+.contacts__address {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin: 27px 0 0;
+  max-width: 400px;
+}

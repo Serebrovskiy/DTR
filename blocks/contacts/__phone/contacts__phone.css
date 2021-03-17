@@ -1,0 +1,8 @@
+.contacts__phone {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #fff;
+}
