@@ -17,13 +17,13 @@
       <nav>
         <ul class="header__navigatoin">
           <li class="header__navigatoin-link">
-            <a class="header__navigatoin-link-text header__navigatoin-text_active" href="#">О &nbsp;КОМПАНИИ</a>
+            <a class="header__navigatoin-link-text header__navigatoin-text_active" href="#about">О &nbsp;КОМПАНИИ</a>
           </li>
           <li class="header__navigatoin-link">
-            <a class="header__navigatoin-link-text" href="#">УСЛУГИ</a>
+            <a class="header__navigatoin-link-text" href="#services">УСЛУГИ</a>
           </li>
           <li class="header__navigatoin-link">
-            <a class="header__navigatoin-link-text" href="#">КОНТАКТЫ</a>
+            <a class="header__navigatoin-link-text" href="#form">КОНТАКТЫ</a>
           </li>
         </ul>
       </nav>
@@ -36,9 +36,9 @@
         <h1 class="greating__title">Детейлинг в Санкт-Петербурге</h1>
         <h3 class="greating__subtitle">комплексный &nbsp;профессиональный &nbsp;уход &nbsp;за &nbsp;автомобилем</h3>
       </div>
-      <button class="greating__button">ЗАПИСАТЬСЯ</button>
+      <a href="#form" class="greating__button">ЗАПИСАТЬСЯ</a>
     </section>
-    <section class="about">
+    <section class="about" id='about'>
       <img class="about__video" src="./images/about.gif" alt="gif">
       <!-- <img class="about__video" src="https://media.giphy.com/media/26BRu6YovyklBm000/giphy.gif" alt="gif"> -->
       <div class="about__info">
@@ -102,7 +102,7 @@
         </div>
       </div>
     </section>
-    <section class="services-company">
+    <section class="services-company" id='services'>
       <h2 class="services-company__title">УСЛУГИ</h2>
 
       <ul class="services-company__list">
@@ -144,7 +144,7 @@
         </li>
       </ul>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="form">
       <h2 class="contacts__title">КОНТАКТЫ</h2>
       <div class="contacts__main-container">
         <div class="contacts__container">
@@ -152,11 +152,13 @@
           <p class="contacts__email">email</p>
           <p class="contacts__address">г. Санкт-Петербург Полюстровский просп., 59Ф</p>
         </div>
-        <form class="form" action="mail.php" method="POST">
+        <form class="form">
+          <!-- <form class="form" action="mail.php" method="POST"> -->
           <input class="form__input" type="text" placeholder="имя" name="user_name" id="">
           <input class="form__input" type="text" placeholder="телефон" name="user_phone" id="">
           <textarea class="form__textarea" type="text" placeholder="комментарий" name="user_message" id=""></textarea>
-          <button class="form__button" type="submit">ЗАПИСАТЬСЯ</button>
+          <button class="form__button">ЗАПИСАТЬСЯ</button>
+          <!-- <button class="form__button" type="submit">ЗАПИСАТЬСЯ</button> -->
         </form>
       </div>
     </section>
@@ -177,13 +179,13 @@
       <img class="footer__social-icon" src="./images/soc-icon-inst.png" alt="иконка инстаграм">
     </div>
     <small class="footer__copyright">&copy; «DTR» 2021</small>
-
   </footer>
 
   <!-- Подключаем фаилиы для слайлера -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="pages/slick.min.js"></script>
-  <script src="pages/script-slider.js"></script>
+  <script src="pages/scriptSlider.js"></script>
+  <script src="./pages/scriptAnchor.js"></script>
 </body>
 
 </html>
