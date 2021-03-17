@@ -98,7 +98,7 @@
 }
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("../../../images/sl-arrow_l.svg") 0 0 / 100% no-repeat;
+  background: url("../../images/sl-arrow-l.svg") 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-prev:hover {
   cursor: pointer;
@@ -108,7 +108,7 @@
 }
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("../../../images/sl-arrow_r.svg") 0 0 / 100% no-repeat;
+  background: url("../../images/sl-arrow-r.svg") 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-next:hover {
   cursor: pointer;
