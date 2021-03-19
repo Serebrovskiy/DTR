@@ -13,11 +13,12 @@
   grid-column-start: 1;
   grid-column-end: 2;
   justify-self: self-start;
+  transition: 0.3s linear;
 }
 
 .form__button:hover {
   cursor: pointer;
-  /* opacity: 0.8; */
+  box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
 }
 
 /* @media screen and (max-width: 1700px) {

@@ -3,9 +3,16 @@
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 2px;
-
   color: #fff;
   text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s linear;
+}
+
+.header__navigatoin-link-text:hover {
+  border-bottom: 2px solid #ca1517;
+  padding-bottom: 5px;
 }
 
 /* .header__navigatoin-link-text:hover {

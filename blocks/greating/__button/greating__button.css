@@ -14,9 +14,11 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: 0.3s linear;
 }
 
 .greating__button:hover {
   cursor: pointer;
+  box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
   /* opacity: 0.8; */
 }
