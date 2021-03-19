@@ -1,86 +1,55 @@
 @font-face {
   font-family: "Manifold Extended CF";
-  src: url("ManifoldExtendedCF-Light.eot");
-  src: local("Manifold Extended CF Light"), local("ManifoldExtendedCF-Light"),
-    url("ManifoldExtendedCF-Light.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-Light.woff2") format("woff2"),
-    url("ManifoldExtendedCF-Light.woff") format("woff"),
-    url("ManifoldExtendedCF-Light.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-Light.woff2") format("woff2"),
+    url("ManifoldExtendedCF-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF";
-  src: url("ManifoldExtendedCF-Bold.eot");
-  src: local("Manifold Extended CF Bold"), local("ManifoldExtendedCF-Bold"),
-    url("ManifoldExtendedCF-Bold.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-Bold.woff2") format("woff2"),
-    url("ManifoldExtendedCF-Bold.woff") format("woff"),
-    url("ManifoldExtendedCF-Bold.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-Bold.woff2") format("woff2"),
+    url("ManifoldExtendedCF-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF";
-  src: url("ManifoldExtendedCF-Medium.eot");
-  src: local("Manifold Extended CF Medium"), local("ManifoldExtendedCF-Medium"),
-    url("ManifoldExtendedCF-Medium.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-Medium.woff2") format("woff2"),
-    url("ManifoldExtendedCF-Medium.woff") format("woff"),
-    url("ManifoldExtendedCF-Medium.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-Medium.woff2") format("woff2"),
+    url("ManifoldExtendedCF-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF";
-  src: url("ManifoldExtendedCF-Regular.eot");
-  src: local("Manifold Extended CF Regular"),
-    local("ManifoldExtendedCF-Regular"),
-    url("ManifoldExtendedCF-Regular.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-Regular.woff2") format("woff2"),
-    url("ManifoldExtendedCF-Regular.woff") format("woff"),
-    url("ManifoldExtendedCF-Regular.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-Regular.woff2") format("woff2"),
+    url("ManifoldExtendedCF-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF Demi";
-  src: url("ManifoldExtendedCF-DemiBold.eot");
-  src: local("Manifold Extended CF Demi Bold"),
-    local("ManifoldExtendedCF-DemiBold"),
-    url("ManifoldExtendedCF-DemiBold.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-DemiBold.woff2") format("woff2"),
-    url("ManifoldExtendedCF-DemiBold.woff") format("woff"),
-    url("ManifoldExtendedCF-DemiBold.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-DemiBold.eot?#iefix") format("embedded-opentype"),
+    url("ManifoldExtendedCF-DemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF Extra";
-  src: url("ManifoldExtendedCF-ExtraBold.eot");
-  src: local("Manifold Extended CF Extra Bold"),
-    local("ManifoldExtendedCF-ExtraBold"),
-    url("ManifoldExtendedCF-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-ExtraBold.woff2") format("woff2"),
-    url("ManifoldExtendedCF-ExtraBold.woff") format("woff"),
-    url("ManifoldExtendedCF-ExtraBold.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-ExtraBold.woff2") format("woff2"),
+    url("ManifoldExtendedCF-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manifold Extended CF";
-  src: url("ManifoldExtendedCF-Heavy.eot");
-  src: local("Manifold Extended CF Heavy"), local("ManifoldExtendedCF-Heavy"),
-    url("ManifoldExtendedCF-Heavy.eot?#iefix") format("embedded-opentype"),
-    url("ManifoldExtendedCF-Heavy.woff2") format("woff2"),
-    url("ManifoldExtendedCF-Heavy.woff") format("woff"),
-    url("ManifoldExtendedCF-Heavy.ttf") format("truetype");
+  src: url("ManifoldExtendedCF-Heavy.woff2") format("woff2"),
+    url("ManifoldExtendedCF-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
