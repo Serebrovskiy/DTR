@@ -37,7 +37,7 @@
     transparent 100%
   );
   transform: translate(-100%, -25%) rotate(40deg);
-  animation: blick 5s infinite;
+  animation: blick 4s infinite;
 }
 
 .greating__button:hover {

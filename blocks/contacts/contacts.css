@@ -9,4 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../../images/contacts-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

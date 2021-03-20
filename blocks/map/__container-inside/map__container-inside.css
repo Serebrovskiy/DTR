@@ -1,0 +1,7 @@
+.map__container-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 150px 0 0;
+}

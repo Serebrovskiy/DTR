@@ -1,11 +1,15 @@
 .map__container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   position: absolute;
   top: 166px;
-  left: 420px;
-  min-width: 530px;
+  left: 0;
+
   min-height: 373px;
-  padding: 66px 0 0 57px;
+  /* min-width: 530px;
+  padding: 66px 0 0 430px; */
+  width: 50%;
   background-color: #fff;
 }
