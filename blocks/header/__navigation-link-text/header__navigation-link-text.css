@@ -1,0 +1,23 @@
+.header__navigation-link-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s linear;
+}
+
+.header__navigation-link-text:hover {
+  border-bottom: 2px solid #ca1517;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .header__navigation-link-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

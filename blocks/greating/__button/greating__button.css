@@ -46,6 +46,16 @@
   /* opacity: 0.8; */
 }
 
+@media screen and (max-width: 900px) {
+  .greating__button {
+    width: 168px;
+    height: 32px;
+    font-size: 9px;
+    line-height: 11px;
+    margin: 56px 0 68px;
+  }
+}
+
 @keyframes blick {
   0% {
     transform: translate(-250%, -25%) rotate(40deg);

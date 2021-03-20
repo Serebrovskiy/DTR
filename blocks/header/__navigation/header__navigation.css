@@ -1,0 +1,30 @@
+.header__navigation {
+  display: flex;
+  justify-content: flex-start;
+
+  list-style: none;
+  padding: 0;
+
+  margin: 15px 0 0;
+}
+
+.header__navigation:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .header__navigation {
+    margin: 32px 0 0;
+  }
+}
+
+nav {
+  margin: 0 0 0 86px;
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    margin: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.header__navigation-link {
+  margin-right: 55px;
+}
+
+.header__navigation-link:last-child {
+  margin: 0;
+}
+
+/* @media screen and (max-width: 900px) {
+  .header__navigation-link {
+    margin-right: 20px;
+  }
+}  */

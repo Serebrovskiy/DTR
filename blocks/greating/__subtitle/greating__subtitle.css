@@ -6,3 +6,10 @@
   margin: 23px 0 0;
   color: #ffffff;
 }
+
+@media screen and (max-width: 900px) {
+  .greating__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
