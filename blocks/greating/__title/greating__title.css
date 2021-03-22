@@ -4,9 +4,16 @@
   line-height: 54px;
   letter-spacing: 0.1em;
   margin: 0;
-  color: #ffffff;
+  color: #fff;
+  transition: 0.3s linear;
 }
 
+@media screen and (max-width: 1200px) {
+  .greating__title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
 @media screen and (max-width: 900px) {
   .greating__title {
     font-size: 28px;

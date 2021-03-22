@@ -4,6 +4,12 @@
   margin: 0 115px 0 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .contacts__container {
+    max-width: 330px;
+    min-width: 320px;
+  }
+}
 @media screen and (max-width: 900px) {
   .contacts__container {
     margin: 0 88px 0 0px;

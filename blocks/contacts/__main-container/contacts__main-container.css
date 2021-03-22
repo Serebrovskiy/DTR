@@ -3,6 +3,13 @@
   margin: 92px 0 144px;
 }
 
+@media screen and (max-width: 1200px) {
+  .contacts__main-container {
+    margin: 78px 0 90px;
+    width: 100%;
+    padding: 0 55px;
+  }
+}
 @media screen and (max-width: 900px) {
   .contacts__main-container {
     margin: 66px 0 56px;

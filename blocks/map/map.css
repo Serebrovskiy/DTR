@@ -13,6 +13,14 @@ iframe {
   width: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  .map {
+    max-height: 600px;
+  }
+  iframe {
+    height: 600px;
+  }
+}
 @media screen and (max-width: 900px) {
   .map {
     max-height: 432px;

@@ -6,6 +6,12 @@
   color: #020102;
 }
 
+@media screen and (max-width: 1200px) {
+  .services-company__subtitle {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
 @media screen and (max-width: 900px) {
   .services-company__subtitle {
     font-size: 14px;

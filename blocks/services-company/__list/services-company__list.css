@@ -8,6 +8,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .services-company__list {
+    margin: 58px 0 62px;
+    grid-column-gap: 58px;
+  }
+}
 @media screen and (max-width: 900px) {
   .services-company__list {
     margin: 42px 0 62px;

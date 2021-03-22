@@ -11,6 +11,13 @@
   max-width: 325px;
 }
 
+@media screen and (max-width: 1200px) {
+  .about__title {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 271px;
+  }
+}
 @media screen and (max-width: 900px) {
   .about__title {
     font-size: 19px;

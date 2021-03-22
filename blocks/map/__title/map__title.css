@@ -7,6 +7,12 @@
   color: #ca1517;
 }
 
+@media screen and (max-width: 1200px) {
+  .contacts__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
 @media screen and (max-width: 900px) {
   .map__title {
     font-size: 19px;

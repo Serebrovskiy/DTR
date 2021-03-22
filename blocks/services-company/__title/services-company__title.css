@@ -10,6 +10,14 @@
   max-height: 43px;
 }
 
+@media screen and (max-width: 1200px) {
+  .services-company__title {
+    margin: 57px 0 0;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 160px;
+  }
+}
 @media screen and (max-width: 900px) {
   .services-company__title {
     margin: 42px 0 0;

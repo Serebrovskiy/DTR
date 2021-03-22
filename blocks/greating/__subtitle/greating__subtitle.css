@@ -7,6 +7,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1200px) {
+  .greating__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 @media screen and (max-width: 900px) {
   .greating__subtitle {
     font-size: 16px;

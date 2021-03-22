@@ -6,7 +6,7 @@
   margin: 47px 0 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .footer__container {
     margin: 24px 0 0;
     min-width: 130px;

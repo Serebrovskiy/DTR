@@ -8,6 +8,13 @@
   max-width: 365px;
 }
 
+@media screen and (max-width: 1200px) {
+  .map__text {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 40px 0 0;
+  }
+}
 @media screen and (max-width: 900px) {
   .map__text {
     font-size: 11px;

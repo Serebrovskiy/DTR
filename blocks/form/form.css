@@ -11,6 +11,12 @@
   max-width: 530px;
 }
 
+@media screen and (max-width: 1200px) {
+  .form {
+    grid-template-columns: repeat(2, 200px);
+    grid-gap: 14px;
+  }
+}
 @media screen and (max-width: 900px) {
   .form {
     width: 100%;

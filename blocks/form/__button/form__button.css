@@ -21,6 +21,13 @@
   box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
 }
 
+@media screen and (max-width: 1200px) {
+  .form__button {
+    margin-top: 0px;
+    width: 250px;
+    height: 48px;
+  }
+}
 @media screen and (max-width: 900px) {
   .form__button {
     grid-column-start: 1;

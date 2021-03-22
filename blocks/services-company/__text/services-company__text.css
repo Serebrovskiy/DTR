@@ -9,6 +9,13 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1200px) {
+  .services-company__text {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 13px 13px 0;
+  }
+}
 @media screen and (max-width: 900px) {
   .services-company__text {
     font-size: 10px;

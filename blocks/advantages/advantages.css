@@ -10,11 +10,11 @@
 /* @import url(./__slider/advantages__slider.css); */
 
 .advantages {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  padding: 74px 0 0;
+  align-items: center; */
+  /* padding: 74px 0 0; */
   background-image: url(../../images/slider-background.png);
   background-repeat: no-repeat;
   background-size: cover;

@@ -2,7 +2,7 @@
   height: 100%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .footer__line {
     height: 61px;
   }

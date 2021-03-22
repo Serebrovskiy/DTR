@@ -9,6 +9,12 @@
   min-width: 200px;
 }
 
+@media screen and (max-width: 1200px) {
+  .header__contact-phone {
+    margin: 15px 0 0 55px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .header__contact-phone {
     margin: 32px 0 0 66px;

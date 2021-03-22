@@ -6,8 +6,13 @@
   margin: 0;
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .header__navigation-link {
-    margin-right: 20px;
+    margin-right: 35px;
   }
-}  */
+}
+@media screen and (max-width: 900px) {
+  .header__navigation-link {
+    margin-right: 55px;
+  }
+}

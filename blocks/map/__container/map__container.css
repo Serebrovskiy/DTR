@@ -14,6 +14,12 @@
   background-color: #fff;
 }
 
+@media screen and (max-width: 1200px) {
+  .map__container {
+    min-height: 300px;
+    top: 145px;
+  }
+}
 @media screen and (max-width: 900px) {
   .map__container {
     min-height: 230px;

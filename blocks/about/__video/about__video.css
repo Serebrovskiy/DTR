@@ -5,6 +5,13 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 1200px) {
+  .about__video {
+    width: 400px;
+    height: 400px;
+    margin: 100px 55px 102px 0;
+  }
+}
 @media screen and (max-width: 900px) {
   .about__video {
     width: 327px;
