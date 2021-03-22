@@ -2,3 +2,11 @@
   display: flex;
   margin: 92px 0 144px;
 }
+
+@media screen and (max-width: 900px) {
+  .contacts__main-container {
+    margin: 66px 0 56px;
+    width: 100%;
+    padding: 0 48px;
+  }
+}

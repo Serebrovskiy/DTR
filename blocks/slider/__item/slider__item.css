@@ -14,3 +14,23 @@
 .slider__item:focus {
   outline: none;
 }
+
+@media screen and (max-width: 900px) {
+  .slider__item {
+    max-width: 190px;
+    height: 190px;
+    padding: 0px 5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .slider__item img {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider__item .filter .slick-slide .slick-cloned {
+    width: 190px;
+  }
+}

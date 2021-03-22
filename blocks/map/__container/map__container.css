@@ -13,3 +13,10 @@
   width: 50%;
   background-color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+  .map__container {
+    min-height: 230px;
+    top: 100px;
+  }
+}

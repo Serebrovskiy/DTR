@@ -10,3 +10,11 @@
   margin-top: -9px;
   max-width: 325px;
 }
+
+@media screen and (max-width: 900px) {
+  .about__title {
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 206px;
+  }
+}

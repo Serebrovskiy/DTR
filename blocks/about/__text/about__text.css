@@ -6,3 +6,11 @@
   letter-spacing: 0.1em;
   color: #020102;
 }
+
+@media screen and (max-width: 900px) {
+  .about__text {
+    margin: 24px 0 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

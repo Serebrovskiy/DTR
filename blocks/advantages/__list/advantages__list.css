@@ -1,11 +1,19 @@
 .advantages__list {
   max-width: 1200px;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(5, 1fr);
-  /* grid-gap: 50px; */
+  grid-template-rows: repeat(2, 200px);
   grid-row-gap: 3px;
-  grid-column-gap: 30px;
+  grid-column-gap: 30px; */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+  .advantages__list {
+    max-width: 900px;
+  }
 }

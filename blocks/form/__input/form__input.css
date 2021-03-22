@@ -22,6 +22,24 @@
   color: #020102;
 }
 
+@media screen and (max-width: 900px) {
+  .form__input {
+    height: 42px;
+    font-size: 15px;
+    line-height: 150%;
+    padding-left: 13px;
+  }
+  .form__input::placeholder {
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 10px;
+  }
+  .form__input::-moz-placeholder {
+    font-size: 15px;
+    line-height: 150%;
+  }
+}
+
 /* @media screen and (max-width: 1700px) {
   .form__input {
     height: 50px;

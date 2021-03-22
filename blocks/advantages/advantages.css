@@ -2,6 +2,11 @@
 @import url(./__item/advantages__item.css);
 @import url(./__image/advantages__image.css);
 @import url(./__text/advantages__text.css);
+@import url(./__item/_position/advantages__item_1.css);
+@import url(./__item/_position/advantages__item_2.css);
+@import url(./__item/_position/advantages__item_3.css);
+@import url(./__item/_position/advantages__item_4.css);
+@import url(./__item/_position/advantages__item_5.css);
 /* @import url(./__slider/advantages__slider.css); */
 
 .advantages {
@@ -9,9 +14,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 106px 0 0;
+  padding: 74px 0 0;
   background-image: url(../../images/slider-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (max-width: 900px) {
+  .advantages {
+  }
 }

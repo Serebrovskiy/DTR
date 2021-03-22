@@ -6,3 +6,10 @@
 
   color: #ca1517;
 }
+
+@media screen and (max-width: 900px) {
+  .map__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

@@ -8,3 +8,11 @@
   text-align: center;
   color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+  .services-company__text {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 10px 5px 0;
+  }
+}

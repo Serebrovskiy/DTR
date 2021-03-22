@@ -1,0 +1,9 @@
+.footer__line {
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__line {
+    height: 61px;
+  }
+}

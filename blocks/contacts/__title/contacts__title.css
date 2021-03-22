@@ -9,3 +9,12 @@
   max-width: 267px;
   max-height: 43px;
 }
+
+@media screen and (max-width: 900px) {
+  .contacts__title {
+    margin: 52px 0 0;
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 172px;
+  }
+}

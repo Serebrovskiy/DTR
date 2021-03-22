@@ -11,6 +11,13 @@
   max-width: 530px;
 }
 
+@media screen and (max-width: 900px) {
+  .form {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
 /* @media screen and (max-width: 1700px) {
   .form {
     margin: 90px 200px 0 170px;
