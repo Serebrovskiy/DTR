@@ -23,6 +23,14 @@
     margin: 52px 0 0;
     font-size: 19px;
     line-height: 23px;
-    max-width: 172px;
+    max-width: 222px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .contacts__title {
+    margin: 37px 0 0;
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 198px;
   }
 }

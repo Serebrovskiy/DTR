@@ -16,3 +16,8 @@
     min-width: 100%;
   }
 }
+@media screen and (max-width: 650px) {
+  .greating {
+    border-top: 1px solid #ca1517;
+  }
+}

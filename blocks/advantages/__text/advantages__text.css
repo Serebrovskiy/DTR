@@ -14,3 +14,10 @@
     line-height: 17px;
   }
 }
+@media screen and (max-width: 650px) {
+  .advantages__text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 140px;
+  }
+}

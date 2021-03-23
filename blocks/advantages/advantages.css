@@ -7,7 +7,7 @@
 @import url(./__item/_position/advantages__item_3.css);
 @import url(./__item/_position/advantages__item_4.css);
 @import url(./__item/_position/advantages__item_5.css);
-/* @import url(./__slider/advantages__slider.css); */
+@import url(./__item/_center/advantages__item_center.css);
 
 .advantages {
   /* display: flex;
@@ -29,5 +29,10 @@
 @media screen and (max-width: 900px) {
   .advantages {
     padding: 70px 0 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .advantages {
+    padding: 60px 0 0;
   }
 }

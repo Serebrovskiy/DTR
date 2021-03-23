@@ -14,3 +14,9 @@
     /* grid-area: icon; */
   }
 }
+@media screen and (max-width: 650px) {
+  .advantages__image {
+    width: 60px;
+    height: 60px;
+  }
+}

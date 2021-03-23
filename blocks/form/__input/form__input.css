@@ -56,6 +56,23 @@
     line-height: 150%;
   }
 }
+@media screen and (max-width: 650px) {
+  .form__input {
+    height: 30px;
+    font-size: 13px;
+    line-height: 150%;
+    padding-left: 10px;
+  }
+  .form__input::placeholder {
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 8px;
+  }
+  .form__input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
 
 /* @media screen and (max-width: 1700px) {
   .form__input {

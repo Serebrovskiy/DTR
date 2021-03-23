@@ -18,3 +18,9 @@
     line-height: 17px;
   }
 }
+@media screen and (max-width: 650px) {
+  .services-company__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

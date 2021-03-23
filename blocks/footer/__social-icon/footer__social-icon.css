@@ -2,10 +2,13 @@
   width: 49px;
   height: 49px;
   margin: 0;
+  border-radius: 30%;
+  transition: 0.3s linear;
 }
 
 .footer__social-icon:hover {
   cursor: pointer;
+  box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
   /* opacity: 0.8; */
 }
 
@@ -13,5 +16,11 @@
   .footer__social-icon {
     width: 43px;
     height: 43px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer__social-icon {
+    width: 28px;
+    height: 28px;
   }
 }

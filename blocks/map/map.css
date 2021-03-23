@@ -29,3 +29,11 @@ iframe {
     height: 432px;
   }
 }
+@media screen and (max-width: 650px) {
+  .map {
+    max-height: 210px;
+  }
+  iframe {
+    height: 210px;
+  }
+}

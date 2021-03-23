@@ -12,3 +12,8 @@
     max-width: 194px;
   }
 }
+@media screen and (max-width: 650px) {
+  .services-company__item {
+    max-width: 232px;
+  }
+}

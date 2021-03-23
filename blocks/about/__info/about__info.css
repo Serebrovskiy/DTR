@@ -9,3 +9,11 @@
     max-width: 320px;
   }
 }
+@media screen and (max-width: 650px) {
+  .about__info {
+    margin: 55px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

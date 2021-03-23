@@ -23,6 +23,11 @@
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 650px) {
+  .form {
+    margin: 40px 0 0;
+  }
+}
 
 /* @media screen and (max-width: 1700px) {
   .form {

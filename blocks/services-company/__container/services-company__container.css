@@ -22,3 +22,10 @@
     min-height: 323px;
   }
 }
+@media screen and (max-width: 650px) {
+  .services-company__container {
+    margin: 18px 0 0;
+    max-width: 232px;
+    min-height: 380px;
+  }
+}

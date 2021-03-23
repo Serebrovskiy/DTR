@@ -7,3 +7,8 @@
     height: 61px;
   }
 }
+@media screen and (max-width: 650px) {
+  .footer__line {
+    height: 38px;
+  }
+}

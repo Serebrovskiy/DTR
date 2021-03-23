@@ -17,3 +17,9 @@
     min-width: 252px;
   }
 }
+@media screen and (max-width: 650px) {
+  .contacts__container {
+    margin: 0;
+    align-items: center;
+  }
+}

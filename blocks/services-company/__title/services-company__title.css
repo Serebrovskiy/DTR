@@ -26,3 +26,12 @@
     max-width: 125px;
   }
 }
+@media screen and (max-width: 650px) {
+  .services-company__title {
+    margin: 37px 0 0;
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 139px;
+    padding-bottom: 3px;
+  }
+}

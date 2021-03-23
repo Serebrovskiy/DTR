@@ -1,0 +1,18 @@
+.advantages__item_center {
+}
+
+@media screen and (max-width: 650px) {
+  .advantages__item_center {
+    min-width: 480px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .advantages__item_center {
+    min-width: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .advantages__item_center {
+    min-width: 280px;
+  }
+}

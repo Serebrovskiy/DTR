@@ -20,3 +20,10 @@
     line-height: 34px;
   }
 }
+@media screen and (max-width: 650px) {
+  .greating__title {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+}

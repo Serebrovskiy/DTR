@@ -21,3 +21,10 @@
     line-height: 150%;
   }
 }
+@media screen and (max-width: 650px) {
+  .contacts__email {
+    margin: 22px 0 0;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}

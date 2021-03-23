@@ -13,3 +13,10 @@
     max-width: 130px;
   }
 }
+@media screen and (max-width: 650px) {
+  .footer__container {
+    margin: 14px 0 0;
+    min-width: 82px;
+    max-width: 82px;
+  }
+}

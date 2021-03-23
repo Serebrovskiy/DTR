@@ -23,3 +23,10 @@
     margin: 10px 5px 0;
   }
 }
+@media screen and (max-width: 650px) {
+  .services-company__text {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 12px 5px 0;
+  }
+}

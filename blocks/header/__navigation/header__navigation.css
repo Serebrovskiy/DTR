@@ -17,6 +17,11 @@
     margin: 32px 0 0;
   }
 }
+@media screen and (max-width: 650px) {
+  .header__navigation {
+    /* display: none; */
+  }
+}
 
 nav {
   margin: 0 0 0 86px;
@@ -31,5 +36,10 @@ nav {
 @media screen and (max-width: 900px) {
   nav {
     margin: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  nav {
+    display: none;
   }
 }

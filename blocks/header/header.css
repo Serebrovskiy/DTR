@@ -4,6 +4,7 @@
 @import url(./__navigation-link/header__navigation-link.css);
 @import url(./__navigation-link-text/header__navigation-link-text.css);
 @import url(./__contact-phone/header__contact-phone.css);
+@import url(./__button-menu/header__button-menu.css);
 @import url(./__navigation-link-text/__navigation-text_active/header__navigation-text_active.css);
 
 .header {
@@ -14,5 +15,11 @@
 @media screen and (max-width: 900px) {
   .header {
     padding: 0 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    justify-content: flex-end;
+    padding: 0 25px 15px;
   }
 }

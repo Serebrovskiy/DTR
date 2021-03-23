@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .contacts__title {
+  .map__title {
     font-size: 25px;
     line-height: 30px;
   }
@@ -17,5 +17,11 @@
   .map__title {
     font-size: 19px;
     line-height: 23px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .map__title {
+    font-size: 13px;
+    line-height: 16px;
   }
 }

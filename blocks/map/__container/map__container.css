@@ -26,3 +26,9 @@
     top: 100px;
   }
 }
+@media screen and (max-width: 650px) {
+  .map__container {
+    min-height: 210px;
+    top: 0px;
+  }
+}

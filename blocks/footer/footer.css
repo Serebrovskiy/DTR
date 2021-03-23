@@ -15,3 +15,8 @@
     min-height: 140px;
   }
 }
+@media screen and (max-width: 650px) {
+  .footer {
+    min-height: 86px;
+  }
+}

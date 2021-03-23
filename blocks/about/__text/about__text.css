@@ -21,3 +21,11 @@
     line-height: 14px;
   }
 }
+@media screen and (max-width: 650px) {
+  .about__text {
+    margin: 20px 0 0;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+  }
+}

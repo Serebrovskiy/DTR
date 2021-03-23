@@ -36,6 +36,22 @@
     line-height: 150%;
   }
 }
+@media screen and (max-width: 650px) {
+  .form__textarea {
+    height: 60px;
+    font-size: 13px;
+    line-height: 150%;
+    padding-left: 10px;
+  }
+  .form__textarea::placeholder {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .form__textarea::-moz-placeholder {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
 
 /* @media screen and (max-width: 1700px) {
   .form__textarea {
