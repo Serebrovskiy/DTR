@@ -49,11 +49,12 @@
   .form__input::placeholder {
     font-size: 15px;
     line-height: 150%;
-    padding-top: 10px;
+    padding-top: 6px;
   }
   .form__input::-moz-placeholder {
     font-size: 15px;
     line-height: 150%;
+    padding-top: 6px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -66,17 +67,17 @@
   .form__input::placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 0px;
+    padding-top: 3px;
   }
   .form__input::-moz-placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 0px;
+    padding-top: 3px;
   }
   .form__input::-webkit-input-placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 0px;
+    padding-top: 3px;
   }
 }
 
