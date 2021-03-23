@@ -2,11 +2,6 @@
 @import url(./__item/advantages__item.css);
 @import url(./__image/advantages__image.css);
 @import url(./__text/advantages__text.css);
-@import url(./__item/_position/advantages__item_1.css);
-@import url(./__item/_position/advantages__item_2.css);
-@import url(./__item/_position/advantages__item_3.css);
-@import url(./__item/_position/advantages__item_4.css);
-@import url(./__item/_position/advantages__item_5.css);
 @import url(./__item/_center/advantages__item_center.css);
 
 .advantages {

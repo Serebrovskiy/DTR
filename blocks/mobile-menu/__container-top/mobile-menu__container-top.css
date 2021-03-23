@@ -1,0 +1,7 @@
+.mobile-menu__container-top {
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  padding: 18px 25px 15px;
+  border-bottom: 0.5px solid #ca1517;
+}

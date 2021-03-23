@@ -20,6 +20,7 @@
 @media screen and (max-width: 650px) {
   .header {
     justify-content: flex-end;
-    padding: 0 25px 15px;
+    padding: 0 25px 8px;
+    position: relative;
   }
 }

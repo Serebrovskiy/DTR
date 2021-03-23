@@ -30,3 +30,8 @@
     min-height: 190px;
   }
 }
+@media screen and (max-width: 350px) {
+  .greating__container {
+    min-height: 160px;
+  }
+}

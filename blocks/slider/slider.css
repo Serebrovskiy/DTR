@@ -110,6 +110,11 @@ body {
     width: 20px;
   }
 }
+@media (max-width: 650px) {
+  .slider .slick-arrow {
+    width: 18px;
+  }
+}
 .slick-arrow:hover {
   cursor: pointer;
 }

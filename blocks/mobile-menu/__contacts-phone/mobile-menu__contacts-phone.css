@@ -1,0 +1,10 @@
+.mobile-menu__contacts-phone {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 15px;
+  color: #ca1517;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
