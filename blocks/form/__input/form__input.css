@@ -45,16 +45,17 @@
     font-size: 16px;
     line-height: 150%;
     padding-left: 13px;
+    padding-top: 0px;
   }
   .form__input::placeholder {
     font-size: 15px;
     line-height: 150%;
-    padding-top: 6px;
+    padding-top: 0px;
   }
   .form__input::-moz-placeholder {
     font-size: 15px;
     line-height: 150%;
-    padding-top: 6px;
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -63,21 +64,22 @@
     font-size: 13px;
     line-height: 150%;
     padding-left: 10px;
+    padding-top: 0px;
   }
   .form__input::placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 3px;
+    padding-top: 0px;
   }
   .form__input::-moz-placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 3px;
+    padding-top: 0px;
   }
   .form__input::-webkit-input-placeholder {
     font-size: 12px;
     line-height: 1;
-    padding-top: 3px;
+    padding-top: 0px;
   }
 }
 
