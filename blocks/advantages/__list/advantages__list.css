@@ -8,25 +8,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 106px auto 70px;
+  margin: 0px auto 70px;
   list-style: none;
 }
 
 @media screen and (max-width: 1200px) {
   .advantages__list {
-    margin: 90px auto 55px;
+    margin: 0px auto 55px;
     min-height: 400px;
   }
 }
 @media screen and (max-width: 1075px) {
   .advantages__list {
     min-height: 400px;
-    margin: 106px auto 0px;
+    margin: 0px auto;
   }
 }
 @media screen and (max-width: 900px) {
   .advantages__list {
     max-width: 900px;
-    margin: 70px auto 0px;
   }
 }

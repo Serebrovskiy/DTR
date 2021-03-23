@@ -14,14 +14,20 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; */
-  /* padding: 74px 0 0; */
+  padding: 117px 0 0;
   background-image: url(../../images/slider-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .advantages {
+    padding: 90px 0 0;
+  }
+}
 @media screen and (max-width: 900px) {
   .advantages {
+    padding: 70px 0 0;
   }
 }
