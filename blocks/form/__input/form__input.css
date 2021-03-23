@@ -65,12 +65,12 @@
   }
   .form__input::placeholder {
     font-size: 12px;
-    line-height: 150%;
+    line-height: 1;
     padding-top: 8px;
   }
   .form__input::-moz-placeholder {
     font-size: 12px;
-    line-height: 150%;
+    line-height: 1;
   }
 }
 
