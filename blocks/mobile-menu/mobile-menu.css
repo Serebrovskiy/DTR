@@ -5,7 +5,6 @@
 @import url(./__container-bottom/mobile-menu__container-bottom.css);
 @import url(./__text/mobile-menu__text.css);
 @import url(./__contacts-button/mobile-menu__contacts-button.css);
-@import url(./__contacts-arrow/mobile-menu__contacts-arrow.css);
 @import url(./__contacts-phone/mobile-menu__contacts-phone.css);
 
 .mobile-menu {
