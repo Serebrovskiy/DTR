@@ -6,6 +6,12 @@
   flex-direction: column;
   align-items: center;
   background-color: #020102;
+  transition: 0.3s linear;
+}
+
+.services-company__container:hover {
+  transform: scale(1.1);
+  /* transition: 0.5s linear; */
 }
 
 @media screen and (max-width: 1200px) {

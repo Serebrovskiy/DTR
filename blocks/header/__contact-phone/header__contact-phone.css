@@ -8,6 +8,10 @@
   text-decoration: none;
   min-width: 200px;
 }
+.header__contact-phone:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 8px rgba(230, 230, 230, 0.5);
+}
 
 @media screen and (max-width: 1200px) {
   .header__contact-phone {
