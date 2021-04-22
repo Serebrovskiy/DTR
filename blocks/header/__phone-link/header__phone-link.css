@@ -1,0 +1,19 @@
+.header__phone-link {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .header__phone-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/phone_24px.png);
+    background-size: 32px;
+  }
+  .header__button-menu:hover {
+    cursor: pointer;
+  }
+  .header__button-menu:focus {
+    outline: none;
+  }
+}

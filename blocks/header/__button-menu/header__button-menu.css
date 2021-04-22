@@ -9,11 +9,11 @@
     background-image: url(../../../images/mobile-menu-button.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 26px;
-    width: 25px;
+    height: 32px;
+    width: 32px;
     background-color: transparent;
     margin-top: 3px;
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
   }
   .header__button-menu:hover {
     cursor: pointer;

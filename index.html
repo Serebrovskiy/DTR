@@ -33,6 +33,9 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
+      <a href="tel:+79119320100" class="header__phone-link">
+        <!-- <img class="header__phone-icon" src="./images/phone-icon.svg" alt="телефон"> -->
+      </a>
       <img class="header__logo" src="./images/logo-black.png" alt="Логотип">
       <button class="header__button-menu" type="button" id="header"></button>
       <nav>
@@ -183,6 +186,9 @@
       </div>
     </section>
     <section class="map">
+      <!-- <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A5dc2f851e21f96b928a1c631c589a0a53953e34aaf9dde296d3c5d6aac21ba1a&amp;source=constructor"
+        width="100%" height="704" frameborder="0"></iframe> -->
       <iframe
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A5dc2f851e21f96b928a1c631c589a0a53953e34aaf9dde296d3c5d6aac21ba1a&amp;source=constructor"
         width="100%" height="704" frameborder="0"></iframe>
@@ -197,11 +203,23 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__container">
-      <img class="footer__social-icon" src="./images/soc-icon-vk.png" alt="иконка вконтакте">
-      <img class="footer__line" src="./images/red-line.png" alt="">
-      <img class="footer__social-icon" src="./images/soc-icon-inst.png" alt="иконка инстаграм">
-    </div>
+    <ul class="footer__container">
+      <li class="">
+        <a class="footer__social-link" href="https://vk.com/dtr_st" target="blank">
+          <img class="footer__social-icon" src="./images/soc-icon-vk.png" alt="иконка вконтакте">
+        </a>
+      </li>
+      <li class="">
+        <a class="footer__social-link" href="https://www.instagram.com/dtr_st" target="blank">
+          <img class="footer__social-icon" src="./images/soc-icon-inst.png" alt="иконка инстаграм">
+        </a>
+      </li>
+      <li class="">
+        <a class="footer__social-link" href="https://www.facebook.com/detailing.dtr" target="blank">
+          <img class="footer__social-icon" src="./images/soc-icon-fb.png" alt="иконка фейсбук">
+        </a>
+      </li>
+    </ul>
     <small class="footer__copyright">&copy; «DTR» 2020</small>
   </footer>
 
@@ -224,7 +242,7 @@
         <p class="mobile-menu__text">&nbsp;СПБ, Полюстровский просп., 59Ф</p>
       </div>
       <div class="mobile-menu__contacts-button">
-        <p class="mobile-menu__text">email</p>
+        <p class="mobile-menu__text">dtr.spb@gmail.com</p>
       </div>
       <a href="tel:+79119320100" class="mobile-menu__contacts-phone">+7 (911) 932-01-00</a>
     </div>

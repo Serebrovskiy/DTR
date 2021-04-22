@@ -20,8 +20,9 @@
 @media screen and (max-width: 650px) {
   .header__container {
     flex-direction: row;
-    justify-content: flex-end;
-    min-width: 60%;
-    margin: 18px 0 5px 0;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 200px;
+    margin: 14px 0 3px 0;
   }
 }

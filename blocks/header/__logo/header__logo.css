@@ -14,8 +14,8 @@
     max-width: 70px;
     max-height: 30px;
     z-index: 13;
-    position: absolute;
+    /* position: absolute;
     top: 13px;
-    left: 41%;
+    left: 41%; */
   }
 }
