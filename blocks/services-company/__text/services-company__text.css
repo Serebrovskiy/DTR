@@ -1,32 +1,33 @@
 .services-company__text {
-  margin: 16px 0 0;
+  margin: 18px 0 0;
   max-width: 263px;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.1em;
   text-align: center;
+  font-family: 'Montserrat Regular';
   color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
   .services-company__text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
-    margin: 13px 13px 0;
+    margin: 16px 13px 0;
   }
 }
 @media screen and (max-width: 900px) {
   .services-company__text {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
-    margin: 10px 5px 0;
+    margin: 12px 8px 0;
   }
 }
 @media screen and (max-width: 650px) {
   .services-company__text {
-    font-size: 12px;
-    line-height: 14px;
-    margin: 12px 5px 0;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 11px 5px 0;
   }
 }

@@ -5,6 +5,7 @@
 @import url(./__container/services-company__container.css);
 @import url(./__image/services-company__image.css);
 @import url(./__text/services-company__text.css);
+@import url(./__button/services-company__button.css);
 
 .services-company {
   min-height: 600px;

@@ -11,6 +11,7 @@
 
 .services-company__container:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 5px;
   /* transition: 0.5s linear; */
 }
 
@@ -32,6 +33,6 @@
   .services-company__container {
     margin: 18px 0 0;
     max-width: 232px;
-    min-height: 380px;
+    min-height: 385px;
   }
 }

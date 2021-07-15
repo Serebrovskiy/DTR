@@ -6,6 +6,7 @@
   color: #020102;
   margin: 50px 0 0;
   max-width: 365px;
+  font-family: 'Montserrat Regular';
 }
 
 @media screen and (max-width: 1200px) {

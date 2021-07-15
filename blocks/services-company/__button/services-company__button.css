@@ -1,0 +1,58 @@
+.services-company__button {
+    width: 228px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ca1517;
+    border-radius: 20px 0px;
+    color: #ca1517;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    margin-top: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+    text-decoration: none;
+  }
+  
+  .services-company__button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
+    background-color: #ca1517;
+    border: 1px solid #ca1517;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .services-company__button {
+      margin-top: 30px;
+      width: 250px;
+      height: 48px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .services-company__button {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-top: 25px;
+      width: 190px;
+      height: 46px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .services-company__button {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-top: 30px;
+      width: 230px;
+      height: 50px;
+      font-size: 11px;
+      line-height: 10px;
+      justify-self: center;
+    }
+  }
+  
