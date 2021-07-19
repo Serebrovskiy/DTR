@@ -15,6 +15,13 @@
   /* transition: 0.5s linear; */
 }
 
+.services-company__container:hover + .services-company__button {
+  box-shadow: 0 0 22px rgba(230, 230, 230, 0.5);
+  background-color: #ca1517;
+  border: 1px solid #ca1517;
+  color: #fff;
+}
+
 @media screen and (max-width: 1200px) {
   .services-company__container {
     margin: 24px 0 0;
